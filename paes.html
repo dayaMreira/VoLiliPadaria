@@ -25,19 +25,19 @@
       }
 
       .column {
-        flex: 1; /* Add this property to make columns equal width */
-        padding: 8px;
+        flex: 1; /* Each column takes one-fourth of the container width */
+        margin: 5px; /* Add margin for spacing between columns */
         box-sizing: border-box;
         text-align: center;
         position: relative;
-        border-radius: 150px;
+        border-radius: 8px; /* Reduce border radius for a more subtle effect */
       }
 
       img {
-        max-width: 100%;
+        width: 100%; /* Make images take the full width of the column */
         height: auto;
         display: block;
-        margin: 0 auto;
+        border-radius: 8px; /* Match the border radius of the column */
       }
 
       p {
@@ -68,6 +68,12 @@
       </div>
       <div class="column">
         <img src="./assets/paes/pao2.png" alt="pães sovados" />
+      </div>
+      <div class="column">
+        <img src="./assets/paes/pao3.png" alt="pães sovados" />
+      </div>
+      <div class="column">
+        <img src="./assets/paes/pao4.png" alt="pães sovados" />
       </div>
     </div>
 
